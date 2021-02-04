@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>flowers</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/logo.png" alt="flowers" class="header-logo" />
-            </a>
-            
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/logo.png" alt="flowers" class="header-logo" />
+                    </a>
 
-          <div class="col-md-6">
-            <span class="header-description"
-              >Интернет-магазин <br />цветов с доставкой <br />
-              по всей <span class="text-color-red">России</span>
-            </span>
-          </div>
+                </div>
 
-          <div class="col-md-3">
-              <a href="tel:+78006548745" class="header-phone">8 (800) 654-87-45</a>
-                <span class="header-info">
-                    Звонок по всей России бесплатный
-                </span>
-                <a href="#" class="callback"> Заказать звонок</a>
-          </div>
+                <div class="col-md-6">
+                    <span class="header-description">Интернет-магазин <br />цветов с доставкой <br />
+                        по всей <span class="text-color-red">России</span>
+                    </span>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="tel:+78006548745" class="header-phone">8 (800) 654-87-45</a>
+                    <span class="header-info">
+                        Звонок по всей России бесплатный
+                    </span>
+                    <a href="#" class="callback"> Заказать звонок</a>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Эксклюзивные цветы и букеты flowers <br> Shop</h1>
+            <p class="hero-descriprion">первая в россии эксклюзивная доставка цветов <br>для людей, которые ценят
+            <b>уникальность</b></p>
+            
+            <!-- Slider main container -->
+        <div class="swiper-container flowers-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/flower-1.png" alt="rose" class="slider-image"></div>
+            <div class="swiper-slide"><img src="img/flower-2.png" alt="rose" class="slider-image"></div>
+            <div class="swiper-slide"><img src="img/flower-3.png" alt="rose" class="slider-image"></div>
+            <div class="swiper-slide"><img src="img/flower-4.png" alt="rose" class="slider-image"></div>
+            <div class="swiper-slide"><img src="img/flower-5.png" alt="rose" class="slider-image"></div>
+            <div class="swiper-slide"><img src="img/flower-6.png" alt="rose" class="slider-image"></div>
+            <div class="swiper-slide"><img src="img/flower-1.png" alt="rose" class="slider-image"></div>
+           
+            </div>
+                   
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <span class="hero-cta">Закажи эксклюзивный букет со скидкой 10%</span>
+        <a href="#" class="button">Заказать букет</a>
+            
+        </div>
+    </section>
+
+    section
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
