@@ -128,12 +128,14 @@ body {
     margin-top: 36px;
 }
 
-.review {}
 
 .reviews {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
+
+
+
 
 .review-image {
     width: 220px;
@@ -173,6 +175,7 @@ body {
 
 .review-slide {
     padding-left: 60px;
+    padding-right: 60px;
 }
 
 .review-text {
@@ -190,4 +193,36 @@ body {
 
 .review-link {
     color: #f24841;
+}
+
+.advantages {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.advantages-wrapper {
+    min-height: 85px;
+    margin-bottom: 30px;
+}
+
+.advantages-title {
+    font-size: 20px;
+    text-transform: uppercase;    
+    line-height: 1.4;
+    max-width: 270px;
+    margin: auto;
+}
+
+.advantages-image {
+
+}
+
+.section-title {
+
+}
+
+.section-description {
+    
 }
