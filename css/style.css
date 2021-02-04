@@ -19,7 +19,9 @@
     font-style: normal;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
     box-sizing: border-box;
 }
 
@@ -91,7 +93,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.18px;
     line-height: 1.4;
-                
+
 }
 
 .flowers-slider {
@@ -108,7 +110,7 @@ body {
     display: block;
     font-family: "Gotham Pro Light", sans-serif;
     font-size: 34px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     margin-bottom: 36px;
 }
 
@@ -124,4 +126,68 @@ body {
     padding-left: 65px;
     padding-right: 65px;
     margin-top: 36px;
+}
+
+.review {}
+
+.reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.review-image {
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: "Gotham Pro Light", sans-serif;
+    position: relative;
+    margin-right: 50px;
+}
+
+.review-image:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+.review-image>* {
+    position: relative;
+}
+
+.review-name {
+    margin-bottom: 7px;
+}
+
+.review-image-1 {
+    background: #000 url('../img/review-1.jpg');
+}
+
+.review-image-1 {
+    background: #000 url('../img/review-1.jpg');
+}
+
+.review-slide {
+    padding-left: 60px;
+}
+
+.review-text {
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    line-height: 1.4;
+}
+.section-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3px;
+    margin-bottom: 98px;
+}
+
+.review-link {
+    color: #f24841;
 }
