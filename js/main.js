@@ -1,4 +1,5 @@
-const flowersSlider = new Swiper('.flowers-slider', {
+$(document).ready(function () {
+  const flowersSlider = new Swiper('.flowers-slider', {
     // Optional parameters
     loop: true,
     slidesPerView: 6,
@@ -28,8 +29,7 @@ const flowersSlider = new Swiper('.flowers-slider', {
       slidesPerView: 6,
       
     }
-  }
- 
+  } 
   });
 
   const reviewSlider = new Swiper('.reviews-slider', {
@@ -42,6 +42,32 @@ const flowersSlider = new Swiper('.flowers-slider', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-
-     
   });
+
+  $("#review-1").on('click', function() {
+
+    $.fancybox.open([
+      {
+        src  : 'https://source.unsplash.com/IvfoDk30JnI/1500x1000',
+        opts : {
+          caption : 'First caption',
+          thumb   : 'https://source.unsplash.com/IvfoDk30JnI/240x160'
+        }
+      },
+      {
+        src  : 'https://source.unsplash.com/0JYgd2QuMfw/1500x1000',
+        opts : {
+          caption : 'Second caption',
+          thumb   : 'https://source.unsplash.com/0JYgd2QuMfw/240x160'
+        }
+      }
+    ], {
+      loop : true,
+      thumbs : {
+        autoStart : true
+      }
+    });
+  
+  });
+
+});
