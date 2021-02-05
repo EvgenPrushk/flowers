@@ -19,9 +19,7 @@
     font-style: normal;
 }
 
-*,
-*:after,
-*:before {
+*, *:after, *:before {
     box-sizing: border-box;
 }
 
@@ -30,11 +28,6 @@ body {
     color: white;
     font-family: "Gotham Pro", sans-serif;
     margin: 0;
-}
-
-.text-color-red {
-    color: #ff3469;
-    font-family: "Gotham Pro Medium", sans-serif;
 }
 
 .header {
@@ -47,16 +40,24 @@ body {
     font-size: 12px;
 }
 
-.header-contacts{
-    display: block;
+.text-color-red {
+    color: #ff3469;
+    font-family: "Gotham Pro Medium", sans-serif;
+}
+
+.header-contacts {
+    text-align: right;
 }
 
 .header-phone {
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
-    text-align: right;
-    color: #ffffff;
-    font-weight: 500;
+    font-weight: 500;    
+    display: block;
+}
+
+.header-description {
     display: block;
 }
 
@@ -64,13 +65,11 @@ body {
     font-size: 12px;
     font-weight: 400;
     margin-top: 7px;
-    display: block;
-    text-align: right;
+    display: block;   
 }
 
-.callback {
+.call-back {
     color: #ff3469;
-    text-align: right;
     display: block;
     margin-top: 16px;
     font-size: 16px;
@@ -85,11 +84,14 @@ body {
 
 .hero-title {
     font-size: 34px;
+    margin: auto;
     margin-bottom: 34px;
     text-transform: uppercase;
     line-height: normal;
     letter-spacing: 0.34px;
     font-family: "Gotham Pro Medium", sans-serif;
+    max-width: 652px;
+   
 }
 
 .hero-descriprion {
@@ -97,7 +99,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.18px;
     line-height: 1.4;
-
+    max-width: 590px;
+    margin: auto;
 }
 
 .flowers-slider {
@@ -402,15 +405,48 @@ body {
         text-align: center;
     }
 
-    .header-contacts{
+    .header-contacts {
         text-align: center;
     }
     .hero {
         padding-top: 50px;
         
     }
-    .hero-title{
+    .hero-title {
         font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
     }
-    
+    .hero-descriprion {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .colors {
+        max-width: 200px;
+        margin: auto;
+    }
+    .card-label {
+        margin: 20px auto;
+    }    
+    .footer-info {
+        text-align: left;
+    }
+}
+
+@media (max-width: 576px) {
+    .offer {
+        text-align: left; 
+    }
+    .offer-title {
+        text-align: left;
+    }
+    .footer-info {
+        text-align: left;
+    }
 }
