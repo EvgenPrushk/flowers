@@ -10,6 +10,4 @@
 
 [Ссылка на урок в youtube №4](https://www.youtube.com/watch?v=E4jbT_9zklw&t=1813s)
 
-
-
 [Ссылка на выполненное задание](https://evgenprushk.github.io/flowers/)
